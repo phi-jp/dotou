@@ -37,7 +37,7 @@
   信仰・決心のかたさや実力などを厳しくためすこと。また、その時に受ける苦難。「厳しい―を受ける」「―に耐える」
 - [熟練](http://kotobank.jp/word/熟練)  
 - [洗練](http://kotobank.jp/word/洗練)  
-- [鍛錬/鍛練](http://kotobank.jp/word/鍛錬)  
+- [鍛練](http://kotobank.jp/word/鍛錬)  
 - [修練](http://kotobank.jp/word/修練)  
 - [習練](http://kotobank.jp/word/習練)  
 - [老練](http://kotobank.jp/word/老練)  
