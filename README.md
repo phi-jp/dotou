@@ -28,7 +28,7 @@
 
 ## 練
 
-練で縛るかも
+[練](http://kotobank.jp/word/練)で縛るかも
 
 
 - [訓練](http://kotobank.jp/word/訓練)  
