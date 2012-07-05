@@ -20,6 +20,46 @@
 - 鍛錬
 
 もしくは
+
 - 訓練
 - 鍛錬
 - 修行
+
+
+## 練
+
+練で縛るかも
+
+
+- [訓練](http://kotobank.jp/word/訓練)  
+  あることを教え、継続的に練習させ、体得させること。「きびしい―にたえる」「―して生徒を鍛える」
+- [試練](http://kotobank.jp/word/試練)  
+  信仰・決心のかたさや実力などを厳しくためすこと。また、その時に受ける苦難。「厳しい―を受ける」「―に耐える」
+- [熟練](http://kotobank.jp/word/熟練)  
+- [洗練](http://kotobank.jp/word/洗練)  
+- [鍛練/鍛錬](http://kotobank.jp/word/鍛練)  
+- [修練](http://kotobank.jp/word/修練)  
+- [習練](http://kotobank.jp/word/習練)  
+- [老練](http://kotobank.jp/word/老練)  
+
+- [練磨](http://kotobank.jp/word/練磨)  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
