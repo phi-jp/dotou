@@ -26,6 +26,9 @@
 - 修行
 
 
+鍛錬 / 修行 / 訓練 は英語では全てtrainingになる。
+
+
 ## 練
 
 [練](http://kotobank.jp/word/練)で縛るかも
