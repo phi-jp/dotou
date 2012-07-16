@@ -4,7 +4,7 @@
 ## JavaScript
 
 ### Core
-- [試練](javascript/siren/index.md)
+- [試練](javascript/shiren/index.md)
 - [修練](javascript/syuuren/index.md)
 - [鍛練](javascript/tanren/index.md)
 
