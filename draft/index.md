@@ -4,6 +4,9 @@
 ## JavaScript
 
 ### Core
+- [試練](siren/index.md)
+- [修練](syuuren/index.md)
+- [鍛練](tanren/index.md)
 
 ### DOM
 
