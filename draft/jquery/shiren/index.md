@@ -2,8 +2,8 @@
 
 
 ## 準備
-- jQuery を読み込もう
-- jQuery をgoogleから読み込もう
+- [jQuery を読み込もう](setup/010)
+- [jQuery をgoogleから読み込もう](setup/020)
 
 
 ## 基礎
