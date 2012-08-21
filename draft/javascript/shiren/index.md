@@ -10,18 +10,19 @@
 
 
 ## 計算
-- 整数 8 に 16 を足した値を表示しよう
-- 整数 32 から 64 を引いた値を表示しよう
-- 整数 128 に 2 を掛けた値を表示しよう
-- 整数 8 を 4 で割った値を表示しよう
-- 整数 16 を 3 で割った余りを表示しよう
+- 整数 8 に 16 を足した値を表示しよう    ([Question](calculation/010/question.html) / [Answer](calculation/010/answer.html))
+- 整数 32 から 64 を引いた値を表示しよう ([Question](calculation/020/question.html) / [Answer](calculation/020/answer.html))
+- 整数 128 に 2 を掛けた値を表示しよう   ([Question](calculation/030/question.html) / [Answer](calculation/030/answer.html))
+- 整数 8 を 4 で割った値を表示しよう     ([Question](calculation/040/question.html) / [Answer](calculation/040/answer.html))
+- 整数 16 を 3 で割った余りを表示しよう  ([Question](calculation/050/question.html) / [Answer](calculation/050/answer.html))
+
 
 ## 変数
-- 変数に値を格納しよう
-- 変数の値を取得してみよう
-- 2つの変数に整数に 16, 8 をそれぞれ格納して四則演算の結果を表示しよう
-- グローバル変数を宣言しよう
-- ローカル変数を宣言しよう
+- 変数 n を宣言し "abc" という値を格納しよう
+- 変数 n の値を取得してみよう
+- 2つの変数 x, y に整数に 16, 8 をそれぞれ格納して四則演算の結果を表示しよう
+- グローバル変数 g を宣言しよう
+- ローカル変数 a を宣言しよう
 - スコープについて理解しよう
 
 
