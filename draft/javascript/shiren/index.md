@@ -2,11 +2,11 @@
 
 
 ## 基礎
-- 1行コメントを書いてみよう
-- 複数行コメントを書いてみよう
-- 数値を表示しよう
-- 文字列を表示しよう
-- 改行しよう
+- 1行コメントを書いてみよう   ([Question](base/010/question.html) / [Answer](base/010/answer.html))
+- 複数行コメントを書いてみよう([Question](base/020/question.html) / [Answer](base/020/answer.html))
+- 数値を表示しよう            ([Question](base/030/question.html) / [Answer](base/030/answer.html))
+- 文字列を表示しよう          ([Question](base/040/question.html) / [Answer](base/040/answer.html))
+- 改行しよう                  ([Question](base/050/question.html) / [Answer](base/050/answer.html))
 
 
 ## 計算
