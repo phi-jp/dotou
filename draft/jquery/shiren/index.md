@@ -12,23 +12,62 @@
 
 
 ## 要素(Selector)
-- [pタグの文字色を赤にしてみよう](selector/010)
-- [ID名から要素を参照してみよう](selector/020)
-- [class名から要素を参照してみよう](selector/030)
+- [<p>JavaScript</p>の要素を参照してみよう](selector/010)
+- [<p id="dotou">JavaScript</p>を参照してみよう](selector/020)
+- [<p class="dotou">JavaScript</p>を参照してみよう](selector/030)
+- [:first-child]
+- [:last-child]
+- [:contains()]
+- [:even]
+- [:odd]
+- [:attribute]
+- [:header]
 
 
 ## 属性(Attribute)
-- [要素の中身(HTML)を取得しよう](aaa)
+- [pタグの中身(HTML)を取得しよう](attribute/010)
+- [pタグの中身(HTML)を変更しよう](attribute/020)
+- [.addClass()]
+- [.removeClass()]
+- [.toggleClass()]
+- [.attr()]
 
 
 ## 操作(Traversing)
-- [n番目の要素を参照してみよう](aaa)
+- [liのn番目の要素を参照してみよう](aaa)
 - [偶数の要素を参照してみよう](aaa)
 - [奇数の要素を参照してみよう](aaa)
+- [偶数の要素と奇数の要素で色を変えてみよう](aaa)
+- [.children()]
+- [.parent()]
+- [.each()]
+- [.eq()]
+- [.filter()]
+- [.find()]
+- [.first()]
+- [.last()]
+- [.has()]
+- [.is()]
+- [.not()]
+- [.next()]
+- [.nextAll()]
+- [.prev()]
+- [.prevAll()]
 
 
 ## 制御(Manipulation)
 - [要素にコンテンツを追加しよう](aaa)
+- [.append()]
+- [.clone()]
+- [.css()]
+- [.empty()]
+- [.width()]
+- [.height()]
+- [.prepend()]
+- [.remove()]
+- [.replaceAll()]
+- [.replaceWith()]
+- [.text()]
 
 
 ## Event
@@ -38,9 +77,35 @@
 - [クリックでアクションを起こしてみよう](aaa)
 - [マウスホバーのイベントを監視してみよう](aaa)
 - [ホバーでアクションを起こしてみよう](aaa)
+- [.bind()]
+- [.change()]
+- [.focus()]
+- [.blur()]
+- [.click()]
+- [.dblclick()]
+- [.hover()]
+- [.keydown()]
+- [.keypress()]
+- [.keyup()]
+- [.on()]
+- [.on("load")]
+- [.mousedown()]
+- [.mouseup()]
+- [.resize()]
+- [.scroll()]
+- [.select()]
+- [.submit()]
+- [.toggle()]
+- [.trigger()]
+- [.aaaaaa()]
+- [.aaaaaa()]
+- [.aaaaaa()]
+- [.aaaaaa()]
+- [.aaaaaa()]
 
 
 ## CSS
+- [pタグの文字色を赤にしてみよう](selector/010)
 - [要素のCSSを変更してみよう](aaa)
 - [要素を非表示にしよう](aaa)
 - [要素の高さを合わせてみよう](aaa)
@@ -89,4 +154,5 @@
 
 ## memo
 - jQuery しか使ってない人に JavaScript と jQuery の線引を説明できたら良いかも
+- ウェブサイト制作編 / ウェブアプリ制作編 みたいに分けたほうが良いかも？
 
