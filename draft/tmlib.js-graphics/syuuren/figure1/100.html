@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>tmlib.js - Graphics 怒濤の修練</title>
+        <script src="http://storage.tmlife.net/libs/tmlib.js/build/tmlib.js"></script>
+        <style>
+body {
+    margin: 0;
+    padding: 0;
+}
+        </style>
+<!-- script start -->
+<script>
+
+/*
+ * 定数
+ */
+var SCREEN_WIDTH = 465;
+var SCREEN_HEIGHT= 465;
+
+
+tm.main(function() {
+    // canvas インスタンス生成
+    var canvas = tm.graphics.Canvas("#world");
+    
+    // 幅, 高さを指定
+    canvas.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
+    
+    // 画面にフィットさせる
+    canvas.resizeToFitScreen();
+    
+    // 点を描画
+    canvas.drawPoint(100, 100);
+    canvas.drawPoint(320, 100);
+    canvas.drawPoint(320, 200);
+    canvas.drawPoint(200, 200);
+    canvas.drawPoint(200, 400);
+});
+
+</script>
+<!-- script end -->
+    </head>
+    <body>
+        <canvas id="world"></canvas>
+    </body>
+</html>
