@@ -4,13 +4,17 @@
 ## JavaScript
 
 ### Core
-- [試練](javascript/shiren/index.md)
-- [修練](javascript/syuuren/index.md)
-- [鍛練](javascript/tanren/index.md)
+- [修練(リファレンス)](javascript/syuuren/index.md)
+- [鍛練(トレーニング)](javascript/tanren/index.md)
+- [熟練(アプリケーション)](javascript/zyukuren/index.md)
+
 
 ### DOM
 
 ### HTML5 Canvas
+- [修練(リファレンス)](html5-canvas/syuuren/index.md)
+- [鍛練(トレーニング)](html5-canvas/tanren/index.md)
+- [熟練(アプリケーション)](html5-canvas/zyukuren/index.md)
 
 ### tmlib.js
 
