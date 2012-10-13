@@ -57,17 +57,17 @@
 
 ## 制御(Manipulation)
 - [要素にコンテンツを追加しよう](aaa)
-- [.append()]
-- [.clone()]
-- [.css()]
-- [.empty()]
-- [.width()]
-- [.height()]
-- [.prepend()]
-- [.remove()]
-- [.replaceAll()]
-- [.replaceWith()]
-- [.text()]
+- [要素内の末尾にコンテンツを追加してみよう](.append)
+- [指定した要素Aを要素Bの末尾にコピーしてみよう](.clone)
+- [要素のCSSを変更してみよう](.css)
+- [要素のすべての子要素を削除してみよう](.empty)
+- [要素のwidth(横幅)を取得しよう](.width)
+- [要素のheight(高さ)を取得しよう](.height)
+- [要素内の先頭に要素を追加しよう](.prepend)
+- [要素を削除してみよう](.remove_イベントハンドラも削除)
+- [指定した要素を置換してみよう](.replaceAll)
+- [要素を指定したコンテンツで置換してみよう](.replaceWith)
+- [要素ないのテキストのみを取得しよう](.text)
 
 
 ## Event
