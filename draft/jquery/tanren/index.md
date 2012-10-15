@@ -57,17 +57,17 @@
 
 ## 制御(Manipulation)
 - [要素にコンテンツを追加しよう](aaa)
-- [.append()]
-- [.clone()]
-- [.css()]
-- [.empty()]
-- [.width()]
-- [.height()]
-- [.prepend()]
-- [.remove()]
-- [.replaceAll()]
-- [.replaceWith()]
-- [.text()]
+- [要素内の末尾にコンテンツを追加してみよう](.append)
+- [指定した要素Aを要素Bの末尾にコピーしてみよう](.clone)
+- [要素のCSSを変更してみよう](.css)
+- [要素のすべての子要素を削除してみよう](.empty)
+- [要素のwidth(横幅)を取得しよう](.width)
+- [要素のheight(高さ)を取得しよう](.height)
+- [要素内の先頭に要素を追加しよう](.prepend)
+- [要素を削除してみよう](.remove_イベントハンドラも削除)
+- [指定した要素を置換してみよう](.replaceAll)
+- [要素を指定したコンテンツで置換してみよう](.replaceWith)
+- [要素ないのテキストのみを取得しよう](.text)
 
 
 ## Event
@@ -77,26 +77,27 @@
 - [クリックでアクションを起こしてみよう](aaa)
 - [マウスホバーのイベントを監視してみよう](aaa)
 - [ホバーでアクションを起こしてみよう](aaa)
-- [.bind()]
-- [.change()]
-- [.focus()]
-- [.blur()]
-- [.click()]
-- [.dblclick()]
-- [.hover()]
-- [.keydown()]
-- [.keypress()]
-- [.keyup()]
-- [.on()]
-- [.on("load")]
-- [.mousedown()]
-- [.mouseup()]
-- [.resize()]
-- [.scroll()]
-- [.select()]
-- [.submit()]
-- [.toggle()]
-- [.trigger()]
+- [要素にイベントハンドラを紐付けます](.bind)
+- [クリックイベントを検知してみよう](.click)
+- [ダブルクリックイベントを検知してみよう](.dblclick)
+- [マウスの押し込みを検知してみよう](.mousedown)
+- [マウスの押上を検知してみよう](.mouseup)
+- [マウスオーバーを検知してみよう](.hover)
+- [マウスオーバーを検知してみよう](.mouseover)
+- [マウスアウトを検知してみよう](.mouseout)
+- [キーボードの押し込みを検知してみよう](.keydown)
+- [キーボードの押上を検知してみよう](.keyup)
+- [テキストの入力を検知してみよう](.keypress)
+- [.on()] - 要検証
+- [.on("load")] - 要検証
+- [要素のリサイズを検知してみよう](.resize)
+- [要素のスクロールを検知してみよう](.scroll)
+- [要素に指定したイベントを発生させよう](.trigger)
+	- [.select()]
+	- [要素の変更を検知してみよう](.change)
+	- [.focus()]
+	- [.blur()]
+	- [.submit()]
 - [.aaaaaa()]
 - [.aaaaaa()]
 - [.aaaaaa()]
