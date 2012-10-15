@@ -1,8 +1,75 @@
 # JavaScript 怒濤の修練(100)
 
 
+## 基礎
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+## Number
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+
+## String
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+
+## Array
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+
+## Object
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+
+## Math
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+
+## Date
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
+
+
+
+
 ## Console
-- log を使ってログを表示しよう
-- dir を使って詳細を表示しよう
-- time, timeEnd を使って処理時間を計測しよう
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+- aaaaaaaaaaaaaaaa
+
 
