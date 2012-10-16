@@ -11,6 +11,8 @@
 - [コメントを複数行で書いてみよう](base/020)
 - [pタグの中身(HTML)を取得しよう](base/030)
 - [pタグの中身(HTML)を変更しよう](base/040)
+- [jQueryに出てくる $ について知ろう](base/050)
+- [jQueryをHTMLの読み込みが終了してから実行する](base/060)
 
 
 ## 要素(Selector)
@@ -78,6 +80,7 @@
 - [マウスホバーのイベントを監視してみよう](aaa)
 - [ホバーでアクションを起こしてみよう](aaa)
 - [要素にイベントハンドラを紐付けます](.bind)
+- [.unbind]
 - [クリックイベントを検知してみよう](.click)
 - [ダブルクリックイベントを検知してみよう](.dblclick)
 - [マウスの押し込みを検知してみよう](.mousedown)
@@ -90,19 +93,21 @@
 - [テキストの入力を検知してみよう](.keypress)
 - [.on()] - 要検証
 - [.on("load")] - 要検証
+- [.off]
 - [要素のリサイズを検知してみよう](.resize)
 - [要素のスクロールを検知してみよう](.scroll)
 - [要素に指定したイベントを発生させよう](.trigger)
-	- [.select()]
+- [.triggerHandler]
+	- [.select]
 	- [要素の変更を検知してみよう](.change)
-	- [.focus()]
-	- [.blur()]
-	- [.submit()]
-- [.aaaaaa()]
-- [.aaaaaa()]
-- [.aaaaaa()]
-- [.aaaaaa()]
-- [.aaaaaa()]
+	- [.focus]
+	- [.focusin / .focusout]
+	- [.blur]
+	- [.submit]
+- [.delegate]
+- [.undelegate]
+- [.one]
+- [.ready]
 
 
 ## CSS
@@ -127,22 +132,22 @@
 - [アニメーションのスピードを指定してみよう](aaa)
 - [アニメーションのにイージングを指定してみよう](aaa)
 - [アニメーションを順番に動作させてみよう](aaa)
-- [aaaaaa](.animate())
-- [aaaaaa](.clearQueue())
-- [aaaaaa](.delay())
-- [aaaaaa](.dequeue())
-- [aaaaaa](.fadeIn())
-- [aaaaaa](.fadeOut())
-- [aaaaaa](.fadeTo())
-- [aaaaaa](.fadeToggle())
-- [aaaaaa](.hide())
-- [aaaaaa](.queue())
-- [aaaaaa](.show())
-- [aaaaaa](.slideDown())
-- [aaaaaa](.slideToggle())
-- [aaaaaa](.slideUp())
-- [aaaaaa](.stop())
-- [aaaaaa](.toggle())
+- [aaaaaa](.animate)
+- [aaaaaa](.clearQueue)
+- [aaaaaa](.delay)
+- [aaaaaa](.dequeue)
+- [aaaaaa](.fadeIn)
+- [aaaaaa](.fadeOut)
+- [aaaaaa](.fadeTo)
+- [aaaaaa](.fadeToggle)
+- [aaaaaa](.hide)
+- [aaaaaa](.queue)
+- [aaaaaa](.show)
+- [aaaaaa](.slideDown)
+- [aaaaaa](.slideToggle)
+- [aaaaaa](.slideUp)
+- [aaaaaa](.stop)
+- [aaaaaa](.toggle)
 
 
 ## Ajax
