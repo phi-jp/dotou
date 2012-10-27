@@ -12,6 +12,12 @@
 - 熟練(アプリケーション)
 - 書物/巻物(参考書)
 
+## 類似サービス
+
+- [3分動画でマスターする初心者向けプログラミング学習サイト - ドットインストール](http://dotinstall.com/)
+- [コードの書き方を学ぼう | Codecademy](http://www.codecademy.com/ja#!/exercises/0)
+- [js STUDIO | jQuery 日本語リファレンス](http://js.studio-kingdom.com/)
+
 
 ## Logo
 
