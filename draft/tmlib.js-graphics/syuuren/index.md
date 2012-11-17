@@ -40,27 +40,19 @@
 - [角丸四角形を描画しよう(ストローク描画)](figure2/100.html)
 
 ## イメージ
-- [drawImage(image, dx, dy)](image/001.html)
-- [drawImage(image, dx, dy, dw, dh)](image/002.html)
-- [drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh)](image/003.html)
+- [drawImage(image, dx, dy)](image/010.html)
+- [drawImage(image, dx, dy, dw, dh)](image/020.html)
+- [drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh)](image/030.html)
 
 
-## テキスト(Text)(14)
+## テキスト(Text)(5)
 
-- [テキストを描画しよう(塗りつぶし描画)](base/001.html)
-- [テキストを描画しよう(ストローク描画)](base/002.html)
-- [最大幅を指定してテキストを描画しよう](base/003.html)
-- [テキストを左揃えにしてみよう(start version)](base/004.html)
-- [テキストを左揃えにしてみよう(left version)](base/005.html)
-- [テキストを右揃えにしてみよう(end version)](base/006.html)
-- [テキストを右揃えにしてみよう(right version)](base/007.html)
-- [テキストを中央揃えにしてみよう](base/008.html)
-- [テキストのベースラインをemスクエアの上端にしてみよう](base/009.html)
-- [テキストのベースラインを上端にしてみよう](base/010.html)
-- [テキストのベースラインをemスクエアの中間にしてみよう](base/011.html)
-- [テキストのベースラインをアルファベットのベースラインにしてみよう](base/012.html)
-- [テキストのベースラインを表意文字に合わせてみよう](base/013.html)
-- [テキストのベースラインをemスクエアの下端にしてみよう](base/014.html)
+- [テキストを描画しよう(塗りつぶし描画)](text/010.html)
+- [テキストを描画しよう(ストローク描画)](text/020.html)
+- [最大幅を指定してテキストを描画しよう](text/030.html)
+- [テキストの横揃えを指定しよう](text/040.html)
+- [テキストの縦揃えを指定しよう](text/050.html)
+
 
 ## 色, グラデーション(Color, Gradient)(4)
 - [塗りつぶしスタイルを指定してみよう](base/001.html)
