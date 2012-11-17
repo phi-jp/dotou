@@ -28,18 +28,21 @@
 
 ## 図形-中級(Figure)(7)
 
-- [多角形を描画しよう(塗りつぶし描画)](base/010.html)
-- [多角形を描画しよう(ストローク描画)](base/010.html)
-- [星型多角形を描画しよう(塗りつぶし描画)](base/010.html)
-- [星型多角形を描画しよう(ストローク描画)](base/010.html)
-- [点線を描画しよう](base/010.html)
-- [ラインズを描画しよう(塗りつぶし描画)](base/010.html)
-- [ラインズを描画しよう(ストローク描画)](base/010.html)
+- [多角形を描画しよう(塗りつぶし描画)](figure2/010.html)
+- [多角形を描画しよう(ストローク描画)](figure2/020.html)
+- [星型多角形を描画しよう(塗りつぶし描画)](figure2/030.html)
+- [星型多角形を描画しよう(ストローク描画)](figure2/040.html)
+- [点線を描画しよう](figure2/050.html)
+- [矢印を描画しよう](figure2/060.html)
+- [ラインズを描画しよう(塗りつぶし描画)](figure2/070.html)
+- [ラインズを描画しよう(ストローク描画)](figure2/080.html)
+- [角丸四角形を描画しよう(塗りつぶし描画)](figure2/090.html)
+- [角丸四角形を描画しよう(ストローク描画)](figure2/100.html)
 
 ## イメージ
-- [drawImage(image, dx, dy)](base/001.html)
-- [drawImage(image, dx, dy, dw, dh)](base/002.html)
-- [drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh)](base/003.html)
+- [drawImage(image, dx, dy)](image/001.html)
+- [drawImage(image, dx, dy, dw, dh)](image/002.html)
+- [drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh)](image/003.html)
 
 
 ## テキスト(Text)(14)
