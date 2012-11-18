@@ -65,6 +65,21 @@
 - [塗りつぶしスタイルに画像を指定してみよう](base/005.html)
 
 
+## 透明度・合成(12)
+- [globalAlpha を使って透明度を設定しよう](base/010.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-atop)](base/020.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-in)](base/030.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-out)](base/040.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-over)](base/050.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-atop)](base/060.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-in)](base/070.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-out)](base/080.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-over)](base/090.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(lighter)](base/100.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(copy)](base/110.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(xor)](base/120.html)
+
+
 ## ラインスタイル(Line Style)(4)
 - [ラインの幅を設定してみよう](base/001.html)
 - [ラインキャップスタイルを設定更してみよう](base/002.html)
@@ -80,21 +95,12 @@
 - [影のオフセット XY 値を指定しよう](base/005.html)
 
 
-
-## 透明度・合成(12)
-- [globalAlpha を使って透明度を設定しよう](base/010.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-atop)](base/020.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-in)](base/030.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-out)](base/040.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-over)](base/050.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-atop)](base/060.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-in)](base/070.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-out)](base/080.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-over)](base/090.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(lighter)](base/100.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(copy)](base/110.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(xor)](base/120.html)
-
+## 変形(5)
+- [translate を使って移動変形させよう](transform/010.html)
+- [rotate を使って回転変形させよう](transform/020.html)
+- [scale を使って拡縮変形させよう](transform/030.html)
+- [画面の中心に移動変形させよう](transform/040.html)
+- [変形した変換マトリックスをリセットしよう](transform/050.html)
 
 
 ## ピクセル操作(11)
@@ -111,22 +117,26 @@
 - [ブラーフィルター](base/110.html)
 
 
-## 変形
-- [translate を使って移動変形させよう](transform/010.html)
-- [rotate を使って回転変形させよう](transform/020.html)
-- [scale を使って拡縮変形させよう](transform/030.html)
-- [画面の中心に移動変形させよう](transform/040.html)
-- [変形した変換マトリックスをリセットしよう](transform/050.html)
-
-
-## 図形(上級)
-- [たくさん図形を描画してみよう](base/001.html)
 
 
 
-## その他
-- [状態をスタックしてみよう](base/001.html)
-- [スタックした状態を復帰させてみよう](base/002.html)
+
+// 21
+
+## 図形(上級)(8)
+- [たくさん図形を描画してみよう(四角形)](base/001.html)
+- [たくさん図形を描画してみよう(円)](base/001.html)
+- [たくさん図形を描画してみよう(多角形)](base/001.html)
+- [たくさん図形を描画してみよう(星)](base/001.html)
+- [魔法陣を描画してみよう](base/001.html)
+- [クマを描画してみよう](base/001.html)
+- [描画した図形を動かしてみよう](#)
+- [描画した図形をバウンドさせてみよう](#)
+
+
+## その他(7)
+- [状態をスタック, 復帰させてみよう](base/001.html)
+- [簡単なペイントツールを作ってみよう](#)
 - [描画されている内容をDataURL Scheme に変換してみよう](base/003.html)
 - [DataURL Scheme に変換した描画情報を画像として保存しよう(png)](base/004.html)
 - [DataURL Scheme に変換した描画情報を画像として保存しよう(jpg)](base/005.html)
