@@ -81,7 +81,7 @@
 
 
 
-## 透明度・合成
+## 透明度・合成(12)
 - [globalAlpha を使って透明度を設定しよう](base/010.html)
 - [globalCompositeOperation を使って合成タイプを設定しよう(source-atop)](base/020.html)
 - [globalCompositeOperation を使って合成タイプを設定しよう(source-in)](base/030.html)
@@ -97,7 +97,7 @@
 
 
 
-## ピクセル操作
+## ピクセル操作(9)
 - [ピクセルを設定](base/001.html)
 - [ピクセルを取得](base/002.html)
 - [砂嵐(白黒)](base/003.html)
@@ -108,6 +108,10 @@
 - [ブルーフィルター](base/008.html)
 - [モザイク](base/009.html)
 
+
+## 変形
+- trasform
+- transformCenter
 
 ## 図形(上級)
 - [たくさん図形を描画してみよう](base/001.html)
