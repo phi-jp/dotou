@@ -97,21 +97,27 @@
 
 
 
-## ピクセル操作(9)
-- [ピクセルを設定](base/001.html)
-- [ピクセルを取得](base/002.html)
-- [砂嵐(白黒)](base/003.html)
-- [砂嵐(カラー)](base/004.html)
-- [モノクロフィルダー](base/005.html)
-- [レッドフィルター](base/006.html)
-- [グリーンフィルター](base/007.html)
-- [ブルーフィルター](base/008.html)
-- [モザイク](base/009.html)
+## ピクセル操作(11)
+- [ピクセルを取得](base/010.html)
+- [ピクセルを設定](base/020.html)
+- [砂嵐(白黒)](base/030.html)
+- [砂嵐(カラー)](base/040.html)
+- [モノクロフィルダー](base/050.html)
+- [レッドフィルター](base/060.html)
+- [グリーンフィルター](base/070.html)
+- [ブルーフィルター](base/080.html)
+- [リバースフィルター](base/090.html)
+- [トゥーンフィルター](base/100.html)
+- [ブラーフィルター](base/110.html)
 
 
 ## 変形
-- trasform
-- transformCenter
+- [translate を使って移動変形させよう](transform/010.html)
+- [rotate を使って回転変形させよう](transform/020.html)
+- [scale を使って拡縮変形させよう](transform/030.html)
+- [画面の中心に移動変形させよう](transform/040.html)
+- [変形した変換マトリックスをリセットしよう](transform/050.html)
+
 
 ## 図形(上級)
 - [たくさん図形を描画してみよう](base/001.html)
