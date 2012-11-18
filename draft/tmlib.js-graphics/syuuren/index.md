@@ -1,7 +1,7 @@
 # tmlib.js Graphics 怒濤の修練(100)
 
 
-## 基礎(6)
+## 基礎(7)
 - [Canvas インスタンスを生成しよう]           (base/010.html)
 - [背景色を指定しよう]                        (base/020.html)
 - [幅を指定しよう]                            (base/030.html)
@@ -11,7 +11,7 @@
 - [canvas を画面にフィットさせよう(解像度は固定)](base/070.html)
 
 
-## 図形-初級(Figure)(11)
+## 図形-初級(Figure)(12)
 - [直線を描画しよう](figure1/010.html)
 - [矩形を描画しよう(塗りつぶし描画)](figure1/020.html)
 - [矩形を描画しよう(ストローク描画)](figure1/030.html)
@@ -26,7 +26,7 @@
 - [クリッピングしてみよう](figure1/120.html)
 
 
-## 図形-中級(Figure)(7)
+## 図形-中級(Figure)(10)
 
 - [多角形を描画しよう(塗りつぶし描画)](figure2/010.html)
 - [多角形を描画しよう(ストローク描画)](figure2/020.html)
@@ -39,7 +39,7 @@
 - [角丸四角形を描画しよう(塗りつぶし描画)](figure2/090.html)
 - [角丸四角形を描画しよう(ストローク描画)](figure2/100.html)
 
-## イメージ
+## イメージ(3)
 - [drawImage(image, dx, dy)](image/010.html)
 - [drawImage(image, dx, dy, dw, dh)](image/020.html)
 - [drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh)](image/030.html)
@@ -54,7 +54,7 @@
 - [テキストの縦揃えを指定しよう](text/050.html)
 
 
-## 色, グラデーション(Color, Gradient)(4)
+## 色, グラデーション(Color, Gradient)(5)
 - [塗りつぶしスタイルを指定してみよう](base/001.html)
 - [ストロークスタイルを指定してみよう](base/002.html)
 - [線形グラデーションを指定してみよう](base/003.html)
@@ -79,19 +79,18 @@
 
 
 ## 透明度・合成
-- [globalAlpha を使って透明度を設定しよう](base/001.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(default)](base/002.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-atop)](base/003.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-in)](base/004.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-out)](base/005.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-over)](base/006.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-atop)](base/007.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-in)](base/008.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-out)](base/009.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-over)](base/010.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(lighter)](base/011.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(copy)](base/012.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(xor)](base/013.html)
+- [globalAlpha を使って透明度を設定しよう](base/010.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-atop)](base/020.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-in)](base/030.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-out)](base/040.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(source-over)](base/050.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-atop)](base/060.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-in)](base/070.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-out)](base/080.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(destination-over)](base/090.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(lighter)](base/100.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(copy)](base/110.html)
+- [globalCompositeOperation を使って合成タイプを設定しよう(xor)](base/120.html)
 
 
 

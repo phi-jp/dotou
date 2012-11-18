@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Title - tmlib.js Graphics - 怒濤の修練</title>
+        <script src="https://raw.github.com/phi1618/tmlib.js/0.1.3/build/tmlib.js"></script>
+        <style>
+body {
+    margin: 0;
+    padding: 0;
+}
+        </style>
+<!-- script start -->
+<script>
+
+/*
+ * 定数
+ */
+var SCREEN_WIDTH = 465;
+var SCREEN_HEIGHT= 465;
+
+
+/*
+ * メイン
+ */
+tm.main(function() {
+    // canvas インスタンス生成
+    var canvas = tm.graphics.Canvas("#world");
+    
+    // 幅, 高さを指定
+    canvas.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
+    // 画面にフィットさせる
+    canvas.fitWindow();
+    
+    // 円を描画
+    canvas.fillStyle = "rgb(255, 0, 0)";
+    canvas.fillCircle(230, 150, 100);
+    
+    // グローバルαを指定
+    canvas.globalCompositeOperation = "lighter";
+    
+    // 円を描画
+    canvas.fillStyle = "rgb(0, 255, 0)";
+    canvas.fillCircle(180, 250, 100);
+    canvas.fillStyle = "rgb(0, 0, 255)";
+    canvas.fillCircle(280, 250, 100);
+    
+    // 補助線
+    canvas.globalCompositeOperation = "source-over";
+    canvas.strokeStyle = "#aaa";
+    canvas.strokeCircle(230, 150, 100);
+    canvas.strokeCircle(180, 250, 100);
+    canvas.strokeCircle(280, 250, 100);
+});
+
+</script>
+<!-- script end -->
+    </head>
+    <body>
+        <canvas id="world"></canvas>
+    </body>
+</html>
