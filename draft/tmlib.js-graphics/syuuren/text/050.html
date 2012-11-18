@@ -32,30 +32,28 @@ tm.main(function() {
     // 画面にフィットさせる
     canvas.fitWindow();
     
+    // フォントを指定
+    canvas.font = "25px 'Consolas', 'Monaco', 'ＭＳ ゴシック'";
     // テキストを描画
-    canvas.textBaseline = "top";
-    canvas.fillText("Time is money.(top)", 50, 40);
-    canvas.drawDashLine(50, 40, 200, 40);
+    canvas.textAlign = "start";
+    canvas.fillText("start", 80, 40);
+    canvas.drawPoint(80, 40);
     
-    canvas.textBaseline = "hanging";
-    canvas.fillText("Time is money.(hanging)", 50, 60);
-    canvas.drawDashLine(50, 60, 200, 60);
+    canvas.textAlign = "end";
+    canvas.fillText("end", 80, 80);
+    canvas.drawPoint(80, 80);
     
-    canvas.textBaseline = "middle";
-    canvas.fillText("Time is money.(middle)", 50, 80);
-    canvas.drawDashLine(50, 80, 200, 80);
+    canvas.textAlign = "left";
+    canvas.fillText("left", 80, 120);
+    canvas.drawPoint(80, 120);
     
-    canvas.textBaseline = "alphabetic";
-    canvas.fillText("Time is money.(alphabetic)", 50, 100);
-    canvas.drawDashLine(50, 100, 200, 100);
+    canvas.textAlign = "right";
+    canvas.fillText("right", 80, 160);
+    canvas.drawPoint(80, 160);
     
-    canvas.textBaseline = "ideographic";
-    canvas.fillText("Time is money.(ideographic)", 50, 120);
-    canvas.drawDashLine(50, 120, 200, 120);
-    
-    canvas.textBaseline = "bottom";
-    canvas.fillText("Time is money.(bottom)", 50, 140);
-    canvas.drawDashLine(50, 140, 200, 140);
+    canvas.textAlign = "center";
+    canvas.fillText("center", 80, 200);
+    canvas.drawPoint(80, 200);
 });
 
 </script>

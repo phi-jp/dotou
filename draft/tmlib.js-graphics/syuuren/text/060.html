@@ -35,7 +35,29 @@ tm.main(function() {
     // フォントを指定
     canvas.font = "25px 'Consolas', 'Monaco', 'ＭＳ ゴシック'";
     // テキストを描画
-    canvas.fillText("Time is money.", 10, 30);
+    canvas.textBaseline = "top";
+    canvas.fillText("Time is money.(top)", 50, 50);
+    canvas.drawDashLine(50, 50, 400, 50);
+    
+    canvas.textBaseline = "hanging";
+    canvas.fillText("Time is money.(hanging)", 50, 100);
+    canvas.drawDashLine(50, 100, 400, 100);
+    
+    canvas.textBaseline = "middle";
+    canvas.fillText("Time is money.(middle)", 50, 150);
+    canvas.drawDashLine(50, 150, 400, 150);
+    
+    canvas.textBaseline = "alphabetic";
+    canvas.fillText("Time is money.(alphabetic)", 50, 200);
+    canvas.drawDashLine(50, 200, 400, 200);
+    
+    canvas.textBaseline = "ideographic";
+    canvas.fillText("Time is money.(ideographic)", 50, 250);
+    canvas.drawDashLine(50, 250, 400, 250);
+    
+    canvas.textBaseline = "bottom";
+    canvas.fillText("Time is money.(bottom)", 50, 300);
+    canvas.drawDashLine(50, 300, 400, 300);
 });
 
 </script>

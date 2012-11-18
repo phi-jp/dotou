@@ -32,26 +32,11 @@ tm.main(function() {
     // 画面にフィットさせる
     canvas.fitWindow();
     
-    // テキストを描画
-    canvas.textAlign = "start";
-    canvas.fillText("start", 50, 40);
-    canvas.drawPoint(50, 40);
-    
-    canvas.textAlign = "end";
-    canvas.fillText("end", 50, 60);
-    canvas.drawPoint(50, 60);
-    
-    canvas.textAlign = "left";
-    canvas.fillText("left", 50, 80);
-    canvas.drawPoint(50, 80);
-    
-    canvas.textAlign = "right";
-    canvas.fillText("right", 50, 100);
-    canvas.drawPoint(50, 100);
-    
-    canvas.textAlign = "center";
-    canvas.fillText("center", 50, 120);
-    canvas.drawPoint(50, 120);
+    // フォントを指定
+    canvas.font = "25px 'Consolas', 'Monaco', 'ＭＳ ゴシック'";
+    // ラインを描画
+    canvas.fillText("Time is money.", 10, 30);
+    canvas.fillText("Time is money.", 10, 60, 100);
 });
 
 </script>
