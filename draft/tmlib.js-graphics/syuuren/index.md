@@ -46,8 +46,8 @@
 - [線形グラデーションを指定してみよう](base/003.html)
 - [円形グラデーションを指定してみよう](base/004.html)
 - [塗りつぶしスタイルに画像を指定してみよう](base/005.html)
-- [状態をスタック, 復帰させてみよう](base/001.html)
-- [塗りつぶしスタイルとストロークスタイルを一括で指定しよう](#)
+- [状態をスタック, 復帰させてみよう](base/006.html)
+- [塗りつぶしスタイルとストロークスタイルを一括で指定しよう](base/007.html)
 
 
 ## イメージ(3)
@@ -69,18 +69,18 @@
 
 
 ## 透明度・合成(12)
-- [globalAlpha を使って透明度を設定しよう](base/010.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-atop)](base/020.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-in)](base/030.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-out)](base/040.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(source-over)](base/050.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-atop)](base/060.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-in)](base/070.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-out)](base/080.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(destination-over)](base/090.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(lighter)](base/100.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(copy)](base/110.html)
-- [globalCompositeOperation を使って合成タイプを設定しよう(xor)](base/120.html)
+- [透明度を設定しよう](base/010.html)
+- [合成タイプを設定しよう(source-atop)](base/020.html)
+- [合成タイプを設定しよう(source-in)](base/030.html)
+- [合成タイプを設定しよう(source-out)](base/040.html)
+- [合成タイプを設定しよう(source-over)](base/050.html)
+- [合成タイプを設定しよう(destination-atop)](base/060.html)
+- [合成タイプを設定しよう(destination-in)](base/070.html)
+- [合成タイプを設定しよう(destination-out)](base/080.html)
+- [合成タイプを設定しよう(destination-over)](base/090.html)
+- [合成タイプを設定しよう(lighter)](base/100.html)
+- [合成タイプを設定しよう(copy)](base/110.html)
+- [合成タイプを設定しよう(xor)](base/120.html)
 
 
 ## ラインスタイル(Line Style)(5)
