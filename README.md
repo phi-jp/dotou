@@ -25,9 +25,9 @@
 
 ## Memo
 
-
-鍛錬 / 修行 / 訓練 は英語では全てtrainingになる。
-指南 は teach。
+- 修練はこれが参考になる <http://newcomer.s368.xrea.com/clang/>
+- 鍛錬 / 修行 / 訓練 は英語では全てtrainingになる。
+- 指南 は teach。
 
 
 ## 練
