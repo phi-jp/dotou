@@ -197,6 +197,14 @@
 - [WordPressで使ってみよう](aaa)
 
 
+## 拡張
+- [jQueryを拡張してみよう]()
+- 参考:
+- [【クリスマスだし】用意しておくとちょっと便利なjQueryの拡張メソッドたち【25日目の４】 ｜ クラスメソッド開発ブログ](http://dev.classmethod.jp/client-side/language-client-side/extend-jquery-methods/)
+
+
+
+
 ## 環境
 - [Chrome Developer Tools を起動しよう](aaa)
 - [コンソール画面にログを表示しよう](aaa)
