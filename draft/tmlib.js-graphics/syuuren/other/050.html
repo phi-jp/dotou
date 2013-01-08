@@ -35,6 +35,9 @@ tm.main(function() {
     // 幅, 高さを指定
     canvas.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
     
+    // 背景を白でクリア
+    canvas.clearColor("white");
+    
     // ライン幅指定
     canvas.setLineStyle(8, "round", "round", 10);
     
@@ -64,7 +67,7 @@ tm.main(function() {
     
     // ボタンに処理を登録
     tm.dom.Element("#clear").event.click(function() {
-        canvas.clear();
+        canvas.clearColor("white");
     });
     tm.dom.Element("#save").event.click(function() {
         canvas.saveAsImage(tm.graphics.Canvas.MIME_TYPE_SVG);
