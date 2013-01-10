@@ -10,7 +10,7 @@
 - [CanvasApp の幅高さを変更してみよう](bbbbb)
 - [CanvasApp を画面にフィットさせよう](bbbbb)
 - [CanvasApp の背景色を変更してみよう](bbbbb)
-- [CanvasApp のテンプレートを用意しよう](bbbbb)
+- [CanvasApp のテンプレートを作ろう](bbbbb)
 
 
 ## Shape
