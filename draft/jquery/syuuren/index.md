@@ -142,6 +142,15 @@
 - [ユーザーエージェントを判定する](aaa)
 
 
+## 似た関数
+- hover mouseover
+- click mousedown mouseenter
+- keydown keypress
+
+## 非推奨
+- [非推奨のtoggle](.toggle)
+
+
 ## 実践
 - [スライドショーを作ってみよう](aaa)
 - [WordPressで使ってみよう](aaa)
