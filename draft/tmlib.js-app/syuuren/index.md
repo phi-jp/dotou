@@ -52,6 +52,20 @@
 ## Button
 
 
+## Interaction
+
+
+## Animation
+
+
+## Collision
+
+
+## Scene
+- 開始画面
+- 終了画面
+
+
 ## Pointing(MouseClick or Touch)
 
 tmlib.js ではマウスクリック, タッチをまとめてポインティング(pointing)と呼んでいます.
@@ -84,11 +98,6 @@ tmlib.js ではマウスクリック, タッチをまとめてポインティン
 
 ## AnimationSprite
 - []()
-
-
-## Scene
-- 開始画面
-- 終了画面
 
 
 ## CanvasApp
