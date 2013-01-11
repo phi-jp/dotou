@@ -6,20 +6,22 @@
 
 
 ## Base
-- [CanvasApp を生成してみよう](bbbbb)
-- [CanvasApp の幅高さを変更してみよう](bbbbb)
-- [CanvasApp を画面にフィットさせよう](bbbbb)
-- [CanvasApp の背景色を変更してみよう](bbbbb)
 - [CanvasApp のテンプレートを作ろう](bbbbb)
+- [Sprite を使って読み込んだ画像を表示しよう]
+- [Label を使ってテキストを表示しよう]
+- [CanvasApp に更新処理を登録しよう]
+- [マウスクリック or タッチに反応させてみよう]
 
 
 ## Sprite
-- [Sprite を使って読み込んだ画像を表示しよう](aaaaaaaaaaa)
 - [Sprite の位置を指定しよう(x, y, position, setPosition)](aaaaaaaaaaa)
 - [Sprite を回転させてみよう](aaaaaaaaaaa)
 - [Sprite を拡大, 縮小させてみよう](aaaaaaaaaaa)
+- [Sprite に幅, 高さを指定しよう]
 - [Sprite を透明にしてみよう](aaaaaaaaaaa)
+- [Sprite の表示/非表示を切り替えてみよう](aaaaaaaaaaa)
 - [Sprite に更新処理を登録して移動させてみよう](aaaaaaaaaaa)
+- [Sprite に更新処理を登録してフェードイン/フェードアウトさせてみよう](aaaaaaaaaaa)
 - [Sprite をたくさん表示してみよう](aaaaaaaaa)
 - [Sprite をたくさん表示してランダムに動かしてみよう](aaaaaaaaa)
 - [Sprite が画面外に出ないよう制御してみよう](aaaaaaaaaaa)
@@ -39,8 +41,29 @@
 - [Shape を使って自由に描画, 表示しよう](aaaaaaaaa)
 
 
-
 ## Label
+- Label のフォントサイズを指定しよう
+- Label のフォントファミリーを指定しよう
+- Label のアラインを指定しよう
+- Label のベースラインを指定しよう
+- Label のフォントカラーを指定しよう
+
+
+## Pointing(MouseClick or Touch)
+
+tmlib.js ではマウスクリック, タッチをまとめてポインティング(pointing)と呼んでいます.
+
+- [ポインティング開始位置に Sprite を移動させてみよう]
+- [ポインティング終了位置に Sprite を移動させてみよう]
+- [ポインティングしている位置に Sprite を移動させてみよう]
+
+
+## Keyboard
+
+- [Arrow Key に応じて表示オブジェクトを移動させてみよう]
+
+
+## Acceleration
 
 
 ## Sound
@@ -50,6 +73,13 @@
 ## AnimationSprite
 - []()
 
+
+
+## CanvasApp
+- [CanvasApp の幅高さを変更してみよう](bbbbb)
+- [CanvasApp を画面にフィットさせよう](bbbbb)
+- [CanvasApp の背景色を変更してみよう](bbbbb)
+- [CanvasApp の更新頻度を指定しよう(fps)](bbbbb)
 
 
 ## Other
