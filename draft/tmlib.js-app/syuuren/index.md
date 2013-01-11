@@ -86,6 +86,10 @@ tmlib.js ではマウスクリック, タッチをまとめてポインティン
 - []()
 
 
+## Scene
+- 開始画面
+- 終了画面
+
 
 ## CanvasApp
 - [CanvasApp の幅高さを変更してみよう](bbbbb)
