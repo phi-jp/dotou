@@ -7,9 +7,9 @@
 
 ## Base
 - [CanvasApp のテンプレートを作ろう](bbbbb)
-- [Sprite を使って読み込んだ画像を表示しよう](bbbbbbbbbb)
-- [Label を使ってテキストを表示しよう](bbbbbbbbbb)
-- [CanvasApp に更新処理を登録しよう](bbbbbbbbbb)
+- [読み込んだ画像を表示しよう](bbbbbbbbbb)
+- [テキストを表示しよう](bbbbbbbbbb)
+- [更新処理を登録しよう](bbbbbbbbbb)
 - [マウスクリック or タッチに反応させてみよう](bbbbbbbbbb)
 
 
