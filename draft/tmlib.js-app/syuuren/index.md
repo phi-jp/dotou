@@ -9,8 +9,8 @@
 - [CanvasApp のテンプレートを作ろう](bbbbb)
 - [読み込んだ画像を表示しよう](bbbbbbbbbb)
 - [テキストを表示しよう](bbbbbbbbbb)
-- [更新処理を登録しよう](bbbbbbbbbb)
-- [マウスクリック or タッチに反応させてみよう](bbbbbbbbbb)
+- [更新処理を登録しよう](bbbbbbbbbb)(app.update を使う)
+- [マウスクリック or タッチに反応させてみよう](bbbbbbbbbb)(app.pointing を使う)
 
 
 ## Sprite
