@@ -7,17 +7,17 @@
 
 ## Base
 - [CanvasApp のテンプレートを作ろう](bbbbb)
-- [Sprite を使って読み込んだ画像を表示しよう]
-- [Label を使ってテキストを表示しよう]
-- [CanvasApp に更新処理を登録しよう]
-- [マウスクリック or タッチに反応させてみよう]
+- [Sprite を使って読み込んだ画像を表示しよう](bbbbbbbbbb)
+- [Label を使ってテキストを表示しよう](bbbbbbbbbb)
+- [CanvasApp に更新処理を登録しよう](bbbbbbbbbb)
+- [マウスクリック or タッチに反応させてみよう](bbbbbbbbbb)
 
 
 ## Sprite
 - [Sprite の位置を指定しよう(x, y, position, setPosition)](aaaaaaaaaaa)
 - [Sprite を回転させてみよう](aaaaaaaaaaa)
 - [Sprite を拡大, 縮小させてみよう](aaaaaaaaaaa)
-- [Sprite に幅, 高さを指定しよう]
+- [Sprite に幅, 高さを指定しよう](bbbbbbbbbb)
 - [Sprite を透明にしてみよう](aaaaaaaaaaa)
 - [Sprite の表示/非表示を切り替えてみよう](aaaaaaaaaaa)
 - [Sprite に更新処理を登録して移動させてみよう](aaaaaaaaaaa)
