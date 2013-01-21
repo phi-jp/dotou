@@ -51,7 +51,11 @@
 
 
 ## Button
-
+- LabelButton を生成して表示してみよう
+- LabelButton を押した際の処理を登録してみよう
+- IconButton を生成して表示してみよう
+- GlossButton を生成して表示してみよう
+- GlossButton の背景色を変更してみよう
 
 ## Interaction
 
