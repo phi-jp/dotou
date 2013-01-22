@@ -139,6 +139,7 @@ tmlib.js ではマウスクリック, タッチをまとめてポインティン
 - [経過フレーム数を取得しよう](aaaaaaaaa)
 - [経過秒数を取得しよう](aaaaaaaaa)
 - [指定した時間以下になったら色を変えてみよう](aaaaaaaaa)
+- [指定した時間以下になったら点滅させてみよう](aaaaaaaaa)
 - [ゲーム共通のデータを作ろう](aaaaaaaaa)(tm.util.DataManager)
 
 
