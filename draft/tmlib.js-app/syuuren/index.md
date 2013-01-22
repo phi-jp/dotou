@@ -62,6 +62,7 @@
 - [独自シーンを作って切り替えてみよう](aaaaaaaaa)
 - [開始画面シーンを作ってみよう](aaaaaaaaa)
 - [終了画面シーンを作ってみよう](aaaaaaaaa)
+- [シーンに Sprite と Shape を表示してみよう](aaaaaaaaa)
 
 
 ## Pointing(MouseClick or Touch)
@@ -138,6 +139,6 @@ tmlib.js ではマウスクリック, タッチをまとめてポインティン
 - [経過フレーム数を取得しよう](aaaaaaaaa)
 - [経過秒数を取得しよう](aaaaaaaaa)
 - [指定した時間以下になったら色を変えてみよう](aaaaaaaaa)
-- [指定した時間以下になったら点滅させてみよう](aaaaaaaaa)
+- [ゲーム共通のデータを作ろう](aaaaaaaaa)(tm.util.DataManager)
 
 
