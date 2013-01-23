@@ -59,10 +59,13 @@
 
 
 ## Scene
-- [独自シーンを作って切り替えてみよう](aaaaaaaaa)
+- [独自シーンを作ってみよう](aaaaaaaaa)
+- [独自シーンを切り替えてみよう](aaaaaaaaa)
+- [シーンに Sprite と Shape を表示してみよう](aaaaaaaaa)
 - [開始画面シーンを作ってみよう](aaaaaaaaa)
 - [終了画面シーンを作ってみよう](aaaaaaaaa)
-- [シーンに Sprite と Shape を表示してみよう](aaaaaaaaa)
+- [ポーズシーンを作ってみよう](aaaaaaaaa)
+- [ポーズシーンを解除してみよう](aaaaaaaaa)
 
 
 ## Pointing(MouseClick or Touch)
@@ -76,6 +79,7 @@ tmlib.js ではマウスクリック, タッチをまとめてポインティン
 - [ポインティング終了位置に表示オブジェクトを移動させてみよう](AAAAAAAAAA)
 - [ポインティングしている位置に表示オブジェクトを移動させてみよう](AAAAAAAAAA)
 - [ポインティングした位置からずらした分移動させてみよう](AAAAAAAAAA)
+- [各ポインティングの情報を Label で画面に表示しよう](AAAAAAAAAA)(座標やタッチ回数など)
 
 
 ## Interaction
@@ -117,6 +121,7 @@ tmlib.js ではマウスクリック, タッチをまとめてポインティン
 ## Acceleration
 
 - [傾いている方向に表示オブジェクトを移動させよう]
+- [移動するオブジェクトに慣性をつけてみよう]
 
 
 ## Sound
