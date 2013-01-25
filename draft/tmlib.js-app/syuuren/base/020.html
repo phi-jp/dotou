@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Canvas インスタンスを生成しよう - tmlib.js Graphics - 怒濤の修練</title>
+        <script src="https://raw.github.com/phi1618/tmlib.js/0.1.5/build/tmlib.js"></script>
+        <style>
+
+        </style>
+<!-- script start -->
+<script>
+
+/*
+ * constant
+ */
+var SCREEN_WIDTH    = 465;
+var SCREEN_HEIGHT   = 465;
+var SCREEN_CENTER_X = SCREEN_WIDTH/2;
+var SCREEN_CENTER_Y = SCREEN_HEIGHT/2;
+
+/*
+ * preload
+ */
+tm.preload(function() {
+    tm.graphics.TextureManager.add("sample_img", "https://raw.github.com/phi1618/tmlib.js/develop/resource/img/kenkyo.jpg");
+});
+
+/*
+ * main
+ */
+tm.main(function() {
+    // canvas インスタンス生成
+    var app = tm.app.CanvasApp("#world");
+    // リサイズ
+    app.resize(SCREEN_WIDTH, SCREEN_HEIGHT);
+    // 画面フィット
+    app.fitWindow();
+
+    // スプライトを生成
+    var sprite = tm.app.Sprite(128, 128, "sample_img");
+    // 位置をセット
+    sprite.x = SCREEN_CENTER_X;
+    sprite.y = SCREEN_CENTER_Y;
+    // シーンに追加
+    app.currentScene.addChild(sprite);
+
+    // 実行
+    app.run();
+});
+
+</script>
+<!-- script end -->
+    </head>
+    <body>
+        <canvas id="world"></canvas>
+    </body>
+</html>

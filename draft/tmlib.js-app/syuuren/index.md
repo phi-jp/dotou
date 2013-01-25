@@ -6,15 +6,15 @@
 
 
 ## Base
-- [CanvasApp のテンプレートを作ろう](bbbbb)
-- [読み込んだ画像を表示しよう](bbbbbbbbbb)
-- [テキストを表示しよう](bbbbbbbbbb)
-- [更新処理を登録しよう](bbbbbbbbbb)(app.update を使う)
-- [マウスクリック or タッチに反応させてみよう](bbbbbbbbbb)(app.pointing を使う)
+- [CanvasApp のテンプレートを作ろう](base/010.html)
+- [読み込んだ画像を表示しよう](base/020.html)
+- [テキストを表示しよう](base/030.html)
+- [更新処理を登録しよう](base/040.html)(app.update を使う)
+- [マウスクリック or タッチに反応させてみよう](base/050.html)(app.pointing を使う)
 
 
 ## Sprite
-- [Sprite の位置を指定しよう(x, y, position, setPosition)](aaaaaaaaaaa)
+- [Sprite の位置を指定しよう(x, y, position, setPosition)](base/020.html)
 - [Sprite を回転させてみよう](aaaaaaaaaaa)
 - [Sprite を拡大, 縮小させてみよう](aaaaaaaaaaa)
 - [Sprite に幅, 高さを指定しよう](bbbbbbbbbb)
