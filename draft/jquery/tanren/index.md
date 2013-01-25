@@ -138,7 +138,7 @@
 - [アニメーション後の処理を指定しよう](aaa)
 - [aaaaaa](.animate)
 	- [aaaaaa](.clearQueue)
-	- [aaaaaa](.delay)
+- [aaaaaa](.delay)
 	- [aaaaaa](.dequeue)
 - [aaaaaa](.fadeIn)
 - [aaaaaa](.fadeOut)
