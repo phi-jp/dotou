@@ -14,18 +14,18 @@
 
 
 ## Sprite
-- [Sprite の位置を指定しよう(x, y, position, setPosition)](base/020.html)
-- [Sprite を回転させてみよう](aaaaaaaaaaa)
-- [Sprite を拡大, 縮小させてみよう](aaaaaaaaaaa)
-- [Sprite に幅, 高さを指定しよう](bbbbbbbbbb)
-- [Sprite を透明にしてみよう](aaaaaaaaaaa)
-- [Sprite の表示/非表示を切り替えてみよう](aaaaaaaaaaa)
-- [Sprite に更新処理を登録して移動させてみよう](aaaaaaaaaaa)
-- [Sprite に更新処理を登録してフェードイン/フェードアウトさせてみよう](aaaaaaaaaaa)
-- [Sprite をたくさん表示してみよう](aaaaaaaaa)
-- [Sprite をたくさん表示してランダムに動かしてみよう](aaaaaaaaa)
-- [Sprite が画面外に出ないよう制御してみよう](aaaaaaaaaaa)
-- [Sprite で描画する画像の描画領域を指定してみよう](aaaaaaaaaaa)
+- [Sprite の位置を指定しよう(x, y, position, setPosition)](sprite/010.html)
+- [Sprite を回転させてみよう](sprite/020.html)
+- [Sprite を拡大, 縮小させてみよう](sprite/030.html)
+- [Sprite に幅, 高さを指定しよう](sprite/040.html)
+- [Sprite を透明にしてみよう](sprite/050.html)
+- [Sprite の表示/非表示を切り替えてみよう](sprite/060.html)
+- [Sprite に更新処理を登録して移動させてみよう](sprite/070.html)
+- [Sprite に更新処理を登録してフェードイン/フェードアウトさせてみよう](sprite/080.html)
+- [Sprite をたくさん表示してみよう](sprite/090.html)
+- [Sprite をたくさん表示してランダムに動かしてみよう](sprite/100.html)
+- [Sprite が画面外に出ないよう制御してみよう](sprite/110.html)
+- [Sprite で描画する画像の描画領域を指定してみよう](sprite/120.html)
 
 
 ## Shape
