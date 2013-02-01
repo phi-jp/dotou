@@ -108,7 +108,7 @@
 	- [キーボードの押し込みを検知してみよう](.keydown)
 	- [キーボードの押上を検知してみよう](.keyup)
 	- [テキストの入力を検知してみよう](.keypress)
-- [.on()] - 要検証
+- [.on() を使ってイベントをバインドしてみよう](.on)
 - [.on("load")] - 要検証
 - [.off]
 - [ウインドウのリサイズを検知してみよう](.resize)
@@ -128,30 +128,27 @@
 
 
 ## Animation
-	- [要素をフェードで表示してみよう](aaa)
-- [要素を回転させてみよう](aaa)
-- [要素を上下左右に移動させてみよう](animate)
-- [.fadeIn() や .fadeOut() を .animate() で再現してみよう](.animate)
+- [要素を移動させてみよう](animate)
+- [.animate() に複数の要素を指定しよう](animate)
 - [アニメーションのスピードを指定してみよう](aaa)
 - [アニメーションのにイージングを指定してみよう](aaa)
 - [アニメーションを順番に動作させてみよう](aaa)
 - [アニメーション後の処理を指定しよう](aaa)
-- [aaaaaa](.animate)
+- [要素をフェードイン/フェードアウトさせてみよう](.fadeIn/.fadeOut)
+- [フェードの透過度を操作しよう](.fadeTo)
+- [フェードの処理を切り替えよう](.fadeToggle)
+- [.animate() でフェードを再現してみよう](.animate)
+- [.show() で要素を表示しよう](.show)
+- [.hide() で要素を非表示にしよう](.hide)
+- [.slideUp() で要素を表示しよう](.slideUp)
+- [.slideDown() で要素を表示しよう](.slideDown)
+- [.slideToggle() で表示を切り替えよう](.slideToggle)
+- [.toggle() で表示を切り替えよう](.toggle)
+- [.delay() でアニメーションを待機させてみよう](.delay)
 	- [aaaaaa](.clearQueue)
-- [aaaaaa](.delay)
 	- [aaaaaa](.dequeue)
-- [aaaaaa](.fadeIn)
-- [aaaaaa](.fadeOut)
-- [aaaaaa](.fadeTo)
-- [aaaaaa](.fadeToggle)
-- [aaaaaa](.hide)
 	- [aaaaaa](.queue)
-- [aaaaaa](.show)
-- [aaaaaa](.slideDown)
-- [aaaaaa](.slideToggle)
-- [aaaaaa](.slideUp)
 - [aaaaaa](.stop)
-- [aaaaaa](.toggle)
 
 
 ## Ajax
