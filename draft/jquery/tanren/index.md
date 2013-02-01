@@ -82,11 +82,11 @@
 - [要素を非表示にしよう](aaa)
 - [要素の横幅と高さを取得してみよう](aaa)
 - [css("width") と width() の違い]
-- [２つの要素の高さを合わせてみよう](aaa)
+- [2つの要素の高さを合わせてみよう](aaa)
+- [上からのスクロール量を取得してみよう](scrollTop)
+- [左からのスクロール量を取得してみよう](scrollLeft)
 	- [](.offset)
 	- [](.position)
-	- [](.scrollLeft)
-	- [](.scrollTop)
 
 
 ## Event
@@ -152,12 +152,14 @@
 
 
 ## Ajax
-- [動的にページを読み込んでみよう](aaa)
+- [Ajaxで通信をしてみよう](aaa)
+- [Ajaxで通信成功、失敗、完了を受け取ろう](aaa)
+- [Ajaxでページを読み込んで表示してみよう](aaa)
 	- []($.ajax)
 	- []($.ajaxPrefilter)
 	- []($.ajaxSetup)
 	- []($.get)
-	- []($.getJSON)
+- []($.getJSON)
 	- []($.getScript)
 	- []($.post)
 
