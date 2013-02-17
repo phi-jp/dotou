@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // 外部サイトの場合リンクを_blankにする
+      if( isMyDomain($(".my").attr("href")) ){
+        $(".my").attr("target", "_blank");
+      }
+      if( isMyDomain($("other").attr("href")) ){
+        $(".other").attr("target", "_blank");
+      }
+      $("a").each(function(){
+        if( isMyDomain($(this).attr("href")) ){
+          $(this).attr("target", "_blank");
+        }
+      });
+
+      // 自ドメインかチェック
+      function isMyDomain(value){
+        if( value.indexOf(location.host) != -1 ){
+          return true;
+        }
+        return false;
+      }
+    });
+  </script>
+</head>
+<body>
+  <a class="my" href="http://dotou.net/">dotou</a>
+  <a class="other" href="http://google.com/">google</a>
+</body>
+</html>

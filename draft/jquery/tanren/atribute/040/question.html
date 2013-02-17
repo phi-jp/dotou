@@ -11,14 +11,17 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // #hoge 内にある .piyo を参照してみよう
-      alert( $("#hoge .piyo").text() );
+      // .attr() を使って画像を入れ替えよう
+      $("button").click(function(){
+        // ここに書こう
+        // 入れ替える画像はなんでもいいよ
+        // 例: http://dummyimage.com/300.png/09f/fff
+      });
     });
   </script>
 </head>
 <body>
-  <div id="hoge">
-    <p class="piyo">Dotou!</p>
-  </div>
+  <img src="http://dummyimage.com/300.png/" alt="dummy">
+  <button>画像の入れ替え</button>
 </body>
 </html>

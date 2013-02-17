@@ -11,14 +11,12 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // #hoge 内にある .piyo を参照してみよう
-      alert( $("#hoge .piyo").text() );
+      // リンクを_blankにする
+      $("a").attr("target", "_blank");
     });
   </script>
 </head>
 <body>
-  <div id="hoge">
-    <p class="piyo">Dotou!</p>
-  </div>
+  <a href="http://dotou.net/">dotou</a>
 </body>
 </html>

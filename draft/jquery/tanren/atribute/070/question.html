@@ -11,14 +11,20 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // #hoge 内にある .piyo を参照してみよう
-      alert( $("#hoge .piyo").text() );
+      // リンクが自ドメインか判定する
+      alert( isMyDomain( $("a").attr("href") ) );
+
+      // 自ドメインかチェック
+      function isMyDomain(value){
+        if( value.indexOf(location.host) != -1 ){
+          return true;
+        }
+        return false;
+      }
     });
   </script>
 </head>
 <body>
-  <div id="hoge">
-    <p class="piyo">Dotou!</p>
-  </div>
+  <a href="http://dotou.net/">dotou</a>
 </body>
 </html>

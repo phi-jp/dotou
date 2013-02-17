@@ -3,6 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <title>怒濤のjQueryサンプル</title>
+  <style>
+  .red{
+    color: red;
+  }
+  </style>
   <!–[if lt IE 9]>
     <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
   <![endif]–>
@@ -11,14 +16,12 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // #hoge 内にある .piyo を参照してみよう
-      alert( $("#hoge .piyo").text() );
+      // pタグにredクラスを追加して文字の色を変える
+      $("p").addClass("red");
     });
   </script>
 </head>
 <body>
-  <div id="hoge">
-    <p class="piyo">Dotou!</p>
-  </div>
+  <p>Dotou!</p>
 </body>
 </html>

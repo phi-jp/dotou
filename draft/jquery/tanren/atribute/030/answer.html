@@ -2,6 +2,11 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <style>
+  .red{
+    color: red;
+  }
+  </style>
   <title>怒濤のjQueryサンプル</title>
   <!–[if lt IE 9]>
     <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
@@ -11,14 +16,15 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // #hoge 内にある .piyo を参照してみよう
-      alert( $("#hoge .piyo").text() );
+      // クラスを交互に切り替えて文字の色を変える
+      $("button").click(function(){
+        $("p").toggleClass("red");
+      });
     });
   </script>
 </head>
 <body>
-  <div id="hoge">
-    <p class="piyo">Dotou!</p>
-  </div>
+  <p>Dotou!</p>
+  <button>色の切り替え</button>
 </body>
 </html>
