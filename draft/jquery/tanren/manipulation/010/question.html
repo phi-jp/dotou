@@ -3,6 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    .box{
+      width: 128px;
+      height: 64px;
+      background-color: #CCC;
+    }
+  </style>
   <!–[if lt IE 9]>
     <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
   <![endif]–>
@@ -11,11 +18,15 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // aaaaaaaaaaa
+      // 要素の幅と高さを変えよう
+      $("button").click(function(){
+        // ここに書いてね
+      });
     });
   </script>
 </head>
 <body>
-  
+  <div class="box"></div>
+  <button>幅と高さ変えるよ</button>
 </body>
 </html>
