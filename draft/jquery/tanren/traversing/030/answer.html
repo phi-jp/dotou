@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // 特定の親要素があるか判定しよう
+      $("p").click(function(){
+        if( $(this).parent(".box").length ){
+          alert(" .box もってるよ ");
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <p>親に .box をもってるよ</p>
+  </div>
+  <div class="garden">
+    <p>親は .garden だよ</p>
+  </div>
+</body>
+</html>
