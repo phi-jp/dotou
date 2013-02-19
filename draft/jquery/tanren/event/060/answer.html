@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    body{
+      width: 12800px;
+      height: 12800px;
+    }
+    .box{
+      position: fixed;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // スクロールを検知してスクロール量を取得しよう
+      // スクロールを検知したらスクロール量を取得して .text() で表示してみよう
+      $(window).scroll(function() {
+        $(".top span").text( $(this).scrollTop() );
+        $(".left span").text( $(this).scrollLeft() );
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <p class="top">縦スクロール量: <span>xxx</span> px</p>
+    <p class="left">横スクロール量: <span>xxx</span> px</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    body{
+      height: 12800px;
+    }
+    .box{
+      position: fixed;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // スクロールの量によって処理を変えてみよう
+      // スクロール量によって文字の色を変えてみよう
+      $(window).scroll(function() {
+        var scroll = $(this).scrollTop();
+        if( scroll > 4800){
+          $("p").css("color", "red");
+        }
+        else if( scroll > 3600){
+          $("p").css("color", "blue");
+        }
+        else if( scroll > 2400){
+          $("p").css("color", "yellow");
+        }
+        else if( scroll > 1200){
+          $("p").css("color", "gray");
+        }
+        else if( scroll < 1200){
+          $("p").css("color", "black");
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <p>スクロールしてる？</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // ウィンドウのリサイズを検知してサイズを取得しよう
+      // ウィンドウのサイズを変更したら横幅と高さを取得して .text() で表示してみよう
+      $(window).resize(function(){
+        $(".width span").text( $(this).width() );
+        $(".height span").text( $(this).height() );
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <p class="width">幅: <span>xxx</span> px</p>
+    <p class="height">高さ: <span>xxx</span> px</p>
+  </div>
+</body>
+</html>

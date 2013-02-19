@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    .box{
+      width: 128px;
+      height: 64px;
+      background-color: #CCC;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // マウスオーバーとマウスアウトを検知しよう
+      $(".box").hover(
+        function(){
+          alert("マウスを重ねたよ");
+        },
+        function(){
+          alert("マウスを離したよ");
+        }
+      );
+    });
+  </script>
+</head>
+<body>
+  <div class="box">マウスを重ねてね！</div>
+</body>
+</html>
