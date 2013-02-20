@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // 1階層上の div だけ取得しよう
+      $("p").click(function(){
+        alert( $(this).parent("div").html() );
+        alert( $(this).parent(".box").html() ); // こっちは一階層以上のものなのでundefined
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <div>
+      <p>上の div を取得</p>
+    </div>
+  </div>
+</body>
+</html>
