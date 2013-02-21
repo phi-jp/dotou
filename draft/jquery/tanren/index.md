@@ -3,7 +3,7 @@
 ## 基礎
 - はじめに										[Question](base/010/question.html) / [Answer](base/010/answer.html)
 - 変数 hoge を alert() と console.log() で表示		[Question](base/020/question.html) / [Answer](base/020/answer.html)
-- .text() .html()								[Question](base/030/question.html) / [Answer](base/030/answer.html)
+	- .text() .html()								[Question](base/030/question.html) / [Answer](base/030/answer.html)
 - クリックを検知しよう								[Question](base/040/question.html) / [Answer](base/040/answer.html)
 
 
