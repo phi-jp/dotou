@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    body{
+      height: 2560px;
+    }
+    .box{
+      width: 128px;
+      height: 64px;
+      background-color: #CCC;
+    }
+    a{
+      position: absolute;
+      top: 60%;
+      right: 0px;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script>
+    $(function(){
+      // 常に画面端に表示されるページ先頭へのボタンを作ろう
+      // ここに書いてね
+
+      // スクロール
+      $("a").click(function(){
+        $('body').animate({ scrollTop: $($(this).attr("href")).offset().top }, 'slow','swing');
+        return false;
+      });
+    });
+  </script>
+</head>
+<body id="top">
+  <div class="box">box1ですよ</div>
+  <a href="#top">トップへ</a>
+</body>
+</html>
