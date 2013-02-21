@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // $.ajax で通信し、通信の成功/失敗/完了で alert() を鳴らそう
+      // 別ドメインの場合はエラー
+      $(".btn1").click(function(){
+          $.ajax({
+            url: "http://dotou.net/",
+          })
+          .done(function(){
+            alert("done");
+          })
+          .error(function(){
+            alert("error");
+          })
+          .success(function(){
+            alert("success");
+          });
+      });
+      // 同ドメインの場合は成功
+      $(".btn1").click(function(){
+          $.ajax({
+            url: "http://dotou.net/",
+          })
+          .done(function(){
+            alert("done");
+          })
+          .error(function(){
+            alert("error");
+          })
+          .success(function(){
+            alert("success");
+          });
+      });
+    });
+  </script>
+</head>
+<body>
+  <button class="btn1">通信開始(同ドメイン)</button>
+  <button class="btn2">通信開始(別ドメイン)</button>
+</body>
+</html>
