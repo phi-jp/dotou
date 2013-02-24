@@ -11,7 +11,7 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // 2階層以上上のの div だけ取得しよう
+      // 2階層以上上の div だけ取得しよう
       $("p").click(function(){
         alert( $(this).parent("div").parent("div").html() );
         alert( $(this).parents(".box").html() );
