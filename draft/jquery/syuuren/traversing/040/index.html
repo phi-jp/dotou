@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    div{
+      padding: 20px;
+      background-color: #CCC;
+    }
+    .red{
+      background-color: red;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 1階層上の親要素を取得しよう ( .parent() )
+    $(function(){
+      console.log( $("p").parent("div").html() );
+      $("p").parent("div").addClass("red");
+    });
+  </script>
+</head>
+<body>
+  <div class="box1">
+    <div class="box2">
+      <p>子要素の中の更に子要素</p>
+    </div>
+  </div>
+</body>
+</html>

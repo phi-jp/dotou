@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    .red{
+      color: red;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 指定した要素の直前の要素を取得しよう
+    $(function(){
+      $(".box").prev("p").addClass("red");
+    });
+  </script>
+</head>
+<body>
+  <p>hoge</p>
+  <p>piyo</p>
+  <div class="box">
+    <p>Hello, world!</p>
+  </div>
+</body>
+</html>
