@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    div{
+      width: 256px;
+      background-color: #EFEFEF;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 要素の横幅と高さを取得してみよう
+    $(function(){
+      alert( $("strong").css("width") );
+      alert( $("strong").css("height") );
+    });
+  </script>
+</head>
+<body>
+  <p><strong>Hello, world!</strong></p>
+</body>
+</html>
