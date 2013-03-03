@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    div{
+      width: 128px;
+      height: 128px;
+      background-color: #EFEFEF;
+      position: absolute;
+      top: 50px;
+      left: 20px;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 他ライブラリと競合しないようにしよう
+    var j = jQuery.noConflict();
+    j(function(){
+      j("button").click(function(){
+        j("div")
+          .animate({"top": 200})
+          .animate({"left": 100})
+      });
+    });
+  </script>
+</head>
+<body>
+  <div>Hello, world!</div>
+  <button>動かすよ</button>
+</body>
+</html>
