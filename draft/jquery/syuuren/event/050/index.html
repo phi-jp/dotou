@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css">
+    div{
+      width: 256px;
+      height: 128px;
+      background-color: #EFEFEF;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // マウスオーバー/マウスアウトを .mouseover()/.mouseout() で検知してみよう
+    $(function(){
+      $("div").mouseenter(function(){
+          $(this).text("マウスを重ねたよ");
+      });
+      $("div").mouseleave(function(){
+          $(this).text("マウスを離したよ");
+      });
+    });
+  </script>
+</head>
+<body>
+  <div>
+    マウスを重ねるのだ
+  </div>
+</body>
+</html>
