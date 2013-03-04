@@ -21,7 +21,7 @@
 - HTMLのタグを参照してみよう						[Demo](selector/010)
 - idの要素を参照してみよう						[Demo](selector/020)
 - classの要素を参照してみよう					[Demo](selector/030)
-- タグ, id, classを組み合わせて参照してみよう		[Demo](selector/040)
+- HTMLタグ, id, classを組み合わせて参照してみよう		[Demo](selector/040)
 - pタグの中身(HTML)を取得しよう					[Demo](selector/050)
 - pタグの中身(text)を取得しよう					[Demo](selector/060)
 	- 最初の要素を参照してみよう						[Demo](selector/000)
@@ -103,26 +103,26 @@
 
 
 ## Event
-- クリックイベントを検知してみよう ( .click() )		[Demo](event/000)
-- マウスオーバーを検知してみよう ( .hover() )						[Demo](event/000)
-- マウスアウトを検知してみよう						[Demo](event/000)
-- マウスオーバー/マウスアウトを .mouseover()/.mouseout() で検知してみよう			[Demo](event/000)
-- マウスオーバー/マウスアウトを .mouseenter()/.mouseleave() で検知してみよう		[Demo](event/000)
-	- ダブルクリックイベントを検知してみよう			[Demo](event/000)
-	- マウスの押し込みを検知してみよう				[Demo](event/000)
-	- マウスの押上を検知してみよう				[Demo](event/000)
-	- キーボードの押し込みを検知してみよう			[Demo](event/000)
-	- キーボードの押上を検知してみよう				[Demo](event/000)
-	- テキストの入力を検知してみよう				[Demo](event/000)
-- .on() を使ってイベントをバインドしてみよう	[Demo](event/000)
+- クリックイベントを検知してみよう ( .click() )		[Demo](event/010)
+- マウスオーバーを検知してみよう ( .hover() )			[Demo](event/020)
+- マウスアウトを検知してみよう						[Demo](event/030)
+- マウスオーバー/マウスアウトを .mouseover()/.mouseout() で検知してみよう			[Demo](event/040)
+- マウスオーバー/マウスアウトを .mouseenter()/.mouseleave() で検知してみよう		[Demo](event/050)
+	- ダブルクリックイベントを検知してみよう					[Demo](event/000)
+	- マウスの押し込みを検知してみよう						[Demo](event/000)
+	- マウスの押上を検知してみよう						[Demo](event/000)
+	- キーボードの押し込みを検知してみよう					[Demo](event/000)
+	- キーボードの押上を検知してみよう						[Demo](event/000)
+	- テキストの入力を検知してみよう						[Demo](event/000)
+- 要素に任意のイベントをバインドしてみよう				[Demo](event/060)
 	- .on("load")] - 要検証
 	- .off
-- ウインドウのリサイズを検知してみよう			[Demo](event/000)
-- スクロールを検知してみよう					[Demo](event/000)
-	- 要素に指定したイベントを発生させよう			[Demo](event/000)
+- ウインドウのリサイズを検知してみよう					[Demo](event/070)
+- スクロールを検知してみよう							[Demo](event/080)
+	- 要素に指定したイベントを発生させよう					[Demo](event/000)
 	- .triggerHandler
 		- .select
-		- 要素の変更を検知してみよう					[Demo](event/000)
+		- 要素の変更を検知してみよう							[Demo](event/000)
 		- .focus
 		- .focusin / .focusout
 		- .blur
@@ -134,7 +134,7 @@
 
 
 ## Animation
-- 要素を移動させてみよう								[Demo](animation/010)
+- 要素を右に移動させてみよう							[Demo](animation/010)
 - .animate() に複数の要素を指定しよう					[Demo](animation/020)
 - アニメーションのスピードを指定してみよう				[Demo](animation/030)
 - アニメーションのにイージングを指定してみよう			[Demo](animation/040)
