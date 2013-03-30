@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // リンクを押してもページ移動しないようにしよう
+      $("a").click(function(e){
+        // e.preventDefault();
+        // e.stopPropagation();
+        return false;
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <a href="http://dotou.net/">怒濤へ！</a>
+  </div>
+</body>
+</html>

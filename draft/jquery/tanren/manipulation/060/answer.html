@@ -11,11 +11,22 @@
   <!–[endif]–>
   <script>
     $(function(){
-      // aaaaaaaaaaa
+      // 指定した要素を削除してみよう
+      $("button").click(function(){
+        // .remove() で削除。 イベントも削除される。
+        $(".target").remove();
+
+        // もしくは .detach() を使用。こちらはイベントは削除されない。
+        // $(".target").detach();
+      });
     });
   </script>
 </head>
 <body>
-  
+  <div class="box">
+    <p class="target">削除されるよ</p>
+    <p>これは残るよ</p>
+  </div>
+  <button>削除するよ</button>
 </body>
 </html>

@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    .box1,
+    .box2{
+      background-color: #CCC;
+      margin-bottom: 10px;
+    }
+    .box1{
+      width: 128px;
+      height: 64px;
+    }
+    .box2{
+      width: 64px;
+      height: 32px;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // 指定した要素の幅を大きい方に合わせよう
+      $("button").click(function(){
+        var boxWidth1 = $(".box1").css("width");
+        var boxWidth2 = $(".box2").css("width");
+
+        // .css() で取得する値は文字列なので数値に変換する
+        boxWidth1 = parseInt(boxWidth1);
+        boxWidth2 = parseInt(boxWidth2);
+
+        if(boxWidth1 < boxWidth2){
+          $(".box1").css("width", boxWidth2);
+        }
+        else if(boxWidth1 > boxWidth2){
+          $(".box2").css("width", boxWidth1);
+        }
+      });
+    });
+  </script>
+</head>
+<body>
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <button>幅変えるよ</button>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    .red{
+      color: red;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script>
+    $(function(){
+      // 動的に追加した要素に .click() が効くか試そう
+      $("button").click(function(){
+        $(".box").append("<p>追加した要素</p>");
+      });
+      $("p").click(function(){
+        $(this).toggleClass("red");
+      })
+    });
+  </script>
+</head>
+<body>
+  <div class="box">
+    <p>クリックすると色が変わるよ</p>
+  </div>
+  <button>要素を追加しよう</button>
+</body>
+</html>

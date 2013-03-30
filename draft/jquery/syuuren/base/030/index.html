@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // jQueryをHTMLの読み込みが終了してから実行する
+    console.log($("p").html()); // これはHTMLのロード前なので undefined
+    $(function(){
+      // ここに書けばロード後に処理が実行されます
+      console.log($("p").html());
+    });
+  </script>
+</head>
+<body>
+  <p>Hello, world!</p>
+</body>
+</html>

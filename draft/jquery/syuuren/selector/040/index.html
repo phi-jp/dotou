@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // タグ, id, classを組み合わせて参照してみよう
+    $(function(){
+      console.log( $("#hoge p").html() );
+      console.log( $(".piyo p").html() );
+    });
+  </script>
+</head>
+<body>
+  <div id="hoge">
+    <p>Hollo, </p>
+  </div>
+  <div class="piyo">
+    <p>world!</p>
+  </div>
+</body>
+</html>

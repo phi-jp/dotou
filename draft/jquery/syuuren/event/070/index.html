@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // ウインドウのリサイズを検知してみよう
+    $(function(){
+      $(window).resize(function(){
+        console.log("resize");
+        $(".width").text( $(this).width()+" px" );
+        $(".height").text( $(this).height()+" px" );
+      });
+    });
+  </script>
+</head>
+<body>
+  <p class="width">xxx px</p>
+  <p class="height">xxx px</p>
+</body>
+</html>

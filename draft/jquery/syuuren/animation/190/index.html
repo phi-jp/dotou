@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    p{
+      position: absolute;
+      top: 150px;
+      left: 20px;
+    }
+    button{
+      display: block;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script>
+    // .delay() でアニメーションを待機させてみよう
+    $(function(){
+      $(".move").click(function(){
+        $("p")
+          .animate({"left": '+=50px'}, 1500)
+          .animate({"top":  '+=50px'}, 1500);
+      });
+      $(".back").click(function(){
+        $("p").css({"top": 150, "left": 20});
+      });
+      $(".stop1").click(function(){
+        $("p").stop();
+      });
+      $(".stop2").click(function(){
+        $("p").stop(true, false);
+      });
+      $(".stop3").click(function(){
+        $("p").stop(false, true);
+      });
+      $(".stop4").click(function(){
+        $("p").stop(true, true);
+      });
+    });
+  </script>
+</head>
+<body>
+  <p>Hello, world!</p>
+  <button class="move">動かすよ</button>
+  <button class="back">元の位置に戻す</button>
+  <button class="stop1">動作中のアニメーションを停止し、残りのアニメーションに移行する</button>
+  <button class="stop2">動作中のアニメーションを全て停止する</button>
+  <button class="stop3">動作中のアニメーション最後まで一瞬で処理し、残りのアニメーションに移行する</button>
+  <button class="stop4">動作中のアニメーション最後まで一瞬で処理し、残りのアニメーションも停止する</button>
+</body>
+</html>
