@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    .red{
+      color: red;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 条件と一致した要素を取得しよう
+    $(function(){
+      // 大体はifとかの条件分岐で使う
+      alert( $("p").is(".hoge") );
+      alert( $("span").is(".hoge") );
+    });
+  </script>
+</head>
+<body>
+  <p class="hoge">Hello, </p>
+  <span>world!</span>
+</body>
+</html>

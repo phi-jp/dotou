@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    p{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // .animate() に複数の要素を指定しよう
+    $(function(){
+      $("button").click(function(){
+        $("p").animate({"top": 200, "left": 200});
+      });
+    });
+  </script>
+</head>
+<body>
+  <p>Hello, world!</p>
+  <button>動くよ</button>
+</body>
+</html>

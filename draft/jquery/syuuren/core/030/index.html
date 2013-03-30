@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 要素が何番目か取得しよう
+    $(function(){
+      $("li").click(function(){
+        $("p").text( $(this).index() + "番目の要素です");
+      })
+    });
+  </script>
+</head>
+<body>
+  <ul>
+    <li>クリックしてね</li>
+    <li>クリックしてね</li>
+    <li>クリックしてね</li>
+    <li>クリックしてね</li>
+    <li>クリックしてね</li>
+  </ul>
+  <p></p>
+</body>
+</html>

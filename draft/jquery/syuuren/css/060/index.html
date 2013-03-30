@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    .box1,
+    .box2{
+      width: 256px;
+      height: 128px;
+      background-color: #EFEFEF;
+      margin-bottom: 20px;
+    }
+    .box2{
+      height: 64px;
+      background-color: #EFEFEF;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // 2つの要素の高さを合わせてみよう
+    $(function(){
+      var height = $(".box1").css("height");
+      $(".box2").css("height", height)
+    });
+  </script>
+</head>
+<body>
+  <div class="box1">
+    <p>Hello, world!</p>
+  </div>
+  <div class="box2">
+    <p>Hello, world!</p>
+  </div>
+</body>
+</html>

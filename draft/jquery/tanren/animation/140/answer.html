@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style type="text/css" media="screen">
+    body{
+      height: 12800px;
+    }
+    .box{
+      width: 128px;
+      height: 64px;
+      background-color: #CCC;
+    }
+    #box2{
+      position: absolute;
+      top: 1280px;
+    }
+    button{
+      position: fixed;
+    }
+    a{
+      position: fixed;
+      top: 100px;
+    }
+  </style>
+  <!–[if lt IE 9]>
+    <script src="http://code.jquery.com/jquery-1.9.0.min.js"></script>
+  <![endif]–>
+  <!–[if gte IE 9]><!–>
+    <script src="http://code.jquery.com/jquery-2.0.0b1.min.js"></script>
+  <!–[endif]–>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+  <script>
+    $(function(){
+      // ページ先頭までスクロールするボタンを作ろう
+      $("button").click(function(){
+        $("body").animate({"scrollTop": 0});
+      });
+
+      // ページ内へスクロールするボタンを作ろう
+      // aタグのhrefへスクロール
+      $("a").click(function(){
+        $('body').animate({ scrollTop: $($(this).attr("href")).offset().top }, 'slow','swing');
+        return false;
+      });
+    });
+  </script>
+</head>
+<body>
+  <div id="box1" class="box">box1ですよ</div>
+  <div id="box2" class="box">box2ですよ</div>
+  <button>トップへスクロールするよ</button>
+  <a href="#box2">スクロール改良型</a>
+</body>
+</html>

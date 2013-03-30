@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>怒濤のjQueryサンプル</title>
+  <style>
+    .red{
+      color: red;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+  <script>
+    // n番目の要素を取得してみよう
+    $(function(){
+      $("li").eq(2).addClass("red");
+    });
+  </script>
+</head>
+<body>
+  <ul>
+    <li>その1</li>
+    <li>その2</li>
+    <li>その3</li>
+    <li>その4</li>
+    <li>その5</li>
+  </ul>
+</body>
+</html>
