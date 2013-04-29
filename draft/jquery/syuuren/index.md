@@ -91,7 +91,7 @@
 
 ## CSS
 - 要素のCSSを取得してみよう ( .css() )	[Demo](css/010)
-- pタグの文字色を赤にしてみよう			[Demo](css/020)
+- 文字の色を赤にしてみよう			[Demo](css/020)
 - 要素を非表示にしよう					[Demo](css/030)
 - 要素の横幅と高さを取得してみよう			[Demo](css/040)
 - css("width") と width() の違い		[Demo](css/050)
@@ -134,7 +134,7 @@
 
 
 ## Animation
-- 要素を右に移動させてみよう							[Demo](animation/010)
+- 要素を移動させてみよう								[Demo](animation/010)
 - .animate() に複数の要素を指定しよう					[Demo](animation/020)
 - アニメーションのスピードを指定してみよう				[Demo](animation/030)
 - アニメーションのにイージングを指定してみよう			[Demo](animation/040)
