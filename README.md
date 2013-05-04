@@ -10,13 +10,24 @@
 - 修練(リファレンス)
 - 鍛練(トレーニング)
 - 熟練(アプリケーション)
+- 書物/巻物(参考書)
 
+## 類似サービス
+
+- [3分動画でマスターする初心者向けプログラミング学習サイト - ドットインストール](http://dotinstall.com/)
+- [コードの書き方を学ぼう | Codecademy](http://www.codecademy.com/ja#!/exercises/0)
+- [js STUDIO | jQuery 日本語リファレンス](http://js.studio-kingdom.com/)
+
+
+## Logo
+
+[ロゴ参考](https://www.google.com/search?um=1&hl=ja&biw=1920&bih=933&tbm=isch&sa=1&q=%E6%B3%A2%E3%80%80%E3%83%AD%E3%82%B4&oq=%E6%B3%A2%E3%80%80%E3%83%AD%E3%82%B4&gs_l=img.3..0.8775.8775.0.8968.1.1.0.0.0.0.61.61.1.1.0...0.0...1c.1.JjxR8HWuqZw)
 
 ## Memo
 
-
-鍛錬 / 修行 / 訓練 は英語では全てtrainingになる。
-指南 は teach。
+- 修練はこれが参考になる <http://newcomer.s368.xrea.com/clang/>
+- 鍛錬 / 修行 / 訓練 は英語では全てtrainingになる。
+- 指南 は teach。
 
 
 ## 練
